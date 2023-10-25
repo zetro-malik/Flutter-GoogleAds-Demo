@@ -24,8 +24,9 @@ class _AdsViewState extends State<AdsView> {
  showReward(){
   ScaffoldMessenger.of(context).showSnackBar(
   const SnackBar(
-    content: Text('Congrats you watched the ad.'), // Replace with your desired message.
-    duration: Duration(seconds: 3), // Adjust the duration as needed.
+    backgroundColor: Colors.purple,
+    content: Text("Congrats you've watched the ad."), // Replace with your desired message.
+    duration: Duration(seconds: 30), // Adjust the duration as needed.
   ),
 );
  }
